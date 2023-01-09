@@ -79,10 +79,10 @@ button {
   margin-top: 10px;
   padding: 10px 15px;
   width: 100%;
+  transition: all 0.3 ease-in-out;
 }
 
 button:active,
 button:hover {
-  background-color: #ccc;
-  color: #222;
+  background-color: #df1857;
 }

@@ -1,29 +1,27 @@
-const bill = document.querySelector("#bill");
-const tipPercent = document.querySelector("#tip-percentage");
-const tipAmount = document.querySelector("#tip-amount");
-const totalResult = document.querySelector("#totalOutput");
-const calculateBtn = document.querySelector(".calculate-btn");
 let inputElems = document.querySelectorAll("input[type='number']");
+const bill = document.querySelector("#bill");
+const tip = document.querySelector("#tip-percentage");
+const total = document.querySelector("#totalOutput");
+const numberOfPersons = document.querySelector("#persons");
+const calculateBtn = document.querySelector(".calculate-btn");
 
 window.addEventListener("load", () => {
   inputElems.forEach((input) => (input.value = ""));
 });
 
-calculateBtn.addEventListener("click", getTotal);
+calculateBtn.addEventListener("click", calculateTotal);
 
 window.addEventListener("keydown", (e) => {
   if (e.keyCode === 13) {
-    getTotal();
+    calculateTotal();
   }
 });
 
-function getTotal() {
+function calculateTotal() {
   let billValue = bill.value;
-  let tipPercentValue = tipPercent.value;
-  let tipAmountValue = tipAmount.value;
-  let totalResultValue = totalResult.value;
-
-  tipAmountValue = billValue / tipPercentValue;
-  totalResultValue = parseFloat(billValue) + parseFloat(tipAmountValue);
-  totalResult.innerHTML = totalResultValue.toLocaleString();
+  let tipPercentValue = tip.value / 100;
+  let tipAmountValue = billValue * tipPercentValue;
+  let totalResult = parseFloat(billValue) + parseFloat(tipAmountValue);
+  let totalPerPerson = totalResult / numberOfPersons.value;
+  total.innerHTML = `${totalPerPerson.toLocaleString()} (per person)`;
 }

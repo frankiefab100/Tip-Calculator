@@ -12,7 +12,7 @@
 <a href="https://github.com/frankiefab100/tip-calculator/issues" target="blank">
 <img src="https://img.shields.io/github/issues/frankiefab100/tip-calculator?style=flat-square" alt="tip-calculator issues"/>
 </a>
-<a href="https://github.com/frankiefab100/tip-calculator/blob/main/LICENSE" target="blank">
+<a href="https://github.com/frankiefab100/tip-calculator/tree/main/LICENSE" target="blank">
 <img src="https://img.shields.io/github/license/frankiefab100/tip-calculator?style=flat-square" alt="tip-calculator licence" />
 </a>
 </p>

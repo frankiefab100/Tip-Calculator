@@ -63,7 +63,7 @@ This project is protected under the [MIT License](./License).
 
 ## Resources
 
-Check out the blog post: [Tip Calculator](https://frankiefab.hashnode.dev/)
+Check out the blog post: [Tip Calculator](https://frankiefab.hashnode.dev/how-to-build-a-tip-calculator-with-html-css-and-javascript)
 
 <hr>
 <p align="center">

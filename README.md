@@ -26,7 +26,7 @@
 </div>
 
 ## What is a "Tip Calculator"?
-A tip calculator
+A tip calculator is a tool used to calculate the tip for a meal, bar tab, or service gratuity in a restaurant.
 
 ## Prerequisites
 
@@ -48,11 +48,11 @@ git clone https://github.com/frankiefab100/tip-calculator.git
 
 2. Open the files in your machine
 
-- Drag and drop the tip-calculator folder in [Visual Studio Code](https://code.visualstudio.com/). Alternatively, Open the VS code editor and locate the folder.
+Drag and drop the tip-calculator folder in [Visual Studio Code](https://code.visualstudio.com/). Alternatively, Open the VS code editor and locate the folder.
 
 3. Start the web application
 
- - Click on **Go Live** widget located at the bottom of the VS Code workbench (status bar). 
+Click on **Go Live** button located at the bottom of the VS Code workbench (status bar).
 
 
 ## License 📜
@@ -61,7 +61,7 @@ This project is protected under the [MIT License](./License).
 
 ## Resources
 
-Check out the Blog post: [Tip Calculator](https://frankiefab.hashnode.dev/)
+Check out the blog post: [Tip Calculator](https://frankiefab.hashnode.dev/)
 
 <hr>
 <p align="center">

@@ -22,7 +22,10 @@
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
 </p>
+ 
+ ![Tip-Calculator (2)](https://user-images.githubusercontent.com/46662771/211972696-229ed1ca-92d3-414c-afb3-7814fc158c83.png)
 </div>
+
 
 ## What is a "Tip Calculator"?
 A tip calculator is a tool used to calculate the tip for a meal, bar tab, or service gratuity in a restaurant.
